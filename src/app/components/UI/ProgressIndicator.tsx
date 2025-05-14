@@ -21,7 +21,7 @@ const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({
       // Added background image styling with corrected path format
       className={`flex ${
         direction === 'vertical' ? 'flex-col space-y-6' : 'flex-row justify-center space-x-4'
-      } h-full rounded-lg md:mb-0 bg-[url('./assets/images/bg-sidebar-desktop.svg')] bg-cover bg-center p-6`} // Added p-6 for padding inside the bg div
+      } h-full rounded-lg md:mb-0 sidebar-bg-image bg-cover bg-center p-6`} // Added p-6 for padding inside the bg div
     >
       {stepsInfo.map((step, index) => {
         const isCurrent = index === currentStepIndex;
