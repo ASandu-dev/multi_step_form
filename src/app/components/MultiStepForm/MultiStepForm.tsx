@@ -18,7 +18,7 @@ const initialFormData: FormData = {
     name: '', email: '', phoneNumber: '',
   },
   step2: { selection: '', isYearly: false },
-  step3: { option: '' },
+  step3: { selection: [] },
 };
 
 // Define the information for each step
