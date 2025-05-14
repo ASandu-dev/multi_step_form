@@ -18,19 +18,19 @@ const Step2: React.FC<Step2Props> = ({ formData, updateFormData, errors }) => {
       value: "option1",
       label: "Arcade",
       price: "$9/mo",
-      icon: "/assets/images/icon-arcade.svg",
+      icon: "../../assets/images/icon-arcade.svg",
     },
     {
       value: "option2",
       label: "Advanced",
       price: "$12/mo",
-      icon: "/assets/images/icon-advanced.svg",
+      icon: "../../assets/images/icon-advanced.svg",
     },
     {
       value: "option3",
       label: "Pro",
       price: "$15/mo",
-      icon: "/assets/images/icon-pro.svg",
+      icon: "../../assets/images/icon-pro.svg",
     },
   ];
   const handleToggleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
